@@ -72,7 +72,7 @@ metadata:
     app: front-end
     version: v1
   namespace: default
-  annotations:
+  #annotations:
     #kubernetes.io/elb.class: performance
     #kubernetes.io/elb.autocreate: >-
     #  {"type":"inner","available_zone":["tr-west-1a","tr-west-1b"],"elb_virsubnet_ids":["603dc864-fc24-46c3-82f9-b30034b99a0d"],"ipv6_vip_virsubnet_id":"603dc864-fc24-46c3-82f9-b30034b99a0d","l4_flavor_name":"L4_flavor.elb.pro.max","l7_flavor_name":"","vip_subnet_cidr_id":"4c93ed7f-1601-477a-a6fc-7f833fa79889"}
@@ -92,3 +92,4 @@ spec:
       port: 80
       protocol: TCP
   type: LoadBalancer
+
